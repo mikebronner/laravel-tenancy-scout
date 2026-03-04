@@ -9,10 +9,16 @@
             "email": "hello@genealabs.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/fabmade/multi-tenant"
+        },
+    ],
     "require": {
         "illuminate/support": "^10.0|^11.0|^12.0",
         "laravel/scout": "^10.0|^11.0|^12.0",
-        "hyn/multi-tenant": "*"
+        "hyn/multi-tenant": "dev-5.x@dev"
     },
     "autoload": {
         "psr-4": {
